@@ -1,0 +1,79 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "commitmentSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.about-us-commitment",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "developmentSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.about-us-development-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "missionSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.about-us-mission",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "valueSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.about-us-value-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

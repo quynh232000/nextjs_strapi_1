@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_primary_features",
+  "info": {
+    "displayName": "PrimaryFeature"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

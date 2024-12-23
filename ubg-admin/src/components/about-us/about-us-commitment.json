@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_about_us_commitments",
+  "info": {
+    "displayName": "AboutUsCommitmentSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.commitment-item"
+    }
+  }
+}

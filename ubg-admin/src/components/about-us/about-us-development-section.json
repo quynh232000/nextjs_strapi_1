@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_about_us_development_sections",
+  "info": {
+    "displayName": "AboutUsDevelopmentSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

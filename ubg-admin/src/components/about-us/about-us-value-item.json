@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_about_us_about_us_value_items",
+  "info": {
+    "displayName": "AboutUsValueItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

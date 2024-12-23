@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pricings",
+  "info": {
+    "singularName": "home-pricing",
+    "pluralName": "home-pricings",
+    "displayName": "HomePricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "prices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.pricing",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

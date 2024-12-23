@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_testimonials",
+  "info": {
+    "singularName": "home-testimonial",
+    "pluralName": "home-testimonials",
+    "displayName": "HomeTestimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.testimonial",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

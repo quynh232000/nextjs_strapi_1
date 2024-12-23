@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_commitments",
+  "info": {
+    "displayName": "Commitment"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_faqs",
+  "info": {
+    "singularName": "home-faq",
+    "pluralName": "home-faqs",
+    "displayName": "HomeFaq",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faq",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

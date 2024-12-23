@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_about_us_about_us_value_sections",
+  "info": {
+    "displayName": "AboutUsValueSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.about-us-value-item",
+      "required": true
+    }
+  }
+}

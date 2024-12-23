@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_shared_secondary_features",
+  "info": {
+    "displayName": "SecondaryFeature"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_secondary_features",
+  "info": {
+    "singularName": "home-secondary-feature",
+    "pluralName": "home-secondary-features",
+    "displayName": "HomeSecondaryFeature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.secondary-feature",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

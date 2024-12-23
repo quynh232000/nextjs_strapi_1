@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_us_missions",
+  "info": {
+    "displayName": "Mission",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "index": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}
